@@ -13,5 +13,6 @@ export const loadPosts = async () => {
      }); 
      //O map retorna um novo array para a variável
      return postsAndPhotos;
-}
+};
+
 
