@@ -43,7 +43,7 @@ export const Home = () => {
 
 
   useEffect(() => {
-    console.log(new Date().toLocaleString('pt-br'));
+    //console.log(new Date().toLocaleString('pt-br'));
     handleLoadPosts(0, postsPerPage);
   }, [handleLoadPosts, postsPerPage]);//Array de dependencias
 
